@@ -1,0 +1,19 @@
+html { 
+  font-size: 100%;  
+}
+
+body { 
+  font-family:'Brush Script MT', cursive;
+  background-image: url("https://i.pinimg.com/originals/3b/8a/d2/3b8ad2c7b1be2caf24321c852103598a.jpg"); 
+  background-position: center center; 
+  background-size: 100% 100%; 
+}
+
+p {
+  font-size:40px;
+}
+
+h1 { 
+  color: #33F9FF;
+  font-size:180px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="Style.css">
+<body style="text-align: center;">
+    <h1>
+        Word Counter
+    </h1>
+  
+    <p>
+        Type in the textbox to
+        automatically count the words
+    </p>
+  
+    <textarea id="word" oninput="countWord()"
+    onkeyup="charcountupdate(this.value)"
+        rows="10" cols="100"
+        style="font-family:Times New Roman;color:#003399;
+            font-size:20px;
+            background-color:#33F9FF;
+            white-space:pre-wrap">Enter some text...</textarea>
+
+    <br><br>
+  
+    <p> 
+        Word Count:
+        <span id="result">0</span>
+    </p>
+
+    <p> 
+        Character Count:
+        <span id=charcount></span>
+    </p>
+        
+
+
+</body>
+    <script type="text/javascript" src="Script.js"></script>
+</html>
